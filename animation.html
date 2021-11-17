@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    @keyframes rainbowBkgnd{
+        from {background-color:red;}
+        to {background-color:blue;}
+    }
+
+    @-moz-keyframes rainbowBkgnd{
+        from{background-color: red;}
+        to{background-color: blue;}
+    }
+    .container{
+    
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        background: gainsboro;
+
+    }
+
+    .anim{
+        animation: rainbowBkgnd 5s;
+        position: relative;
+        width: 100px;
+        height: 30px;
+        background: red;
+        color: ivory;
+        margin: 20px;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="anim">Animations</div>
+    </div>
+</body>
+</html>

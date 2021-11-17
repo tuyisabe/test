@@ -1,0 +1,15 @@
+.first{
+    background: tomato;
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    margin-bottom: 0px;
+}
+.second{
+    background: violet;
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    margin-top: 0px;
+    rotate: 90%;
+}
